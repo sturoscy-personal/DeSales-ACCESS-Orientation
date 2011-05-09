@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ 
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/10/ttaf1"  xmlns:tts="http://www.w3.org/2006/10/ttaf1#styling">
+  
+
+<head>
+   
+
+<styling>
+    
+<style id="1" tts:textAlign="center" tts:color="#FFFFFF" tts:backgroundColor="#000000" tts:fontSize="12" tts:fontFamily="Verdana" tts:wrapOption="wrap"/>
+   
+</styling>
+  
+
+</head>
+  
+
+<body>
+   
+
+<div xml:lang="en" style="1">
+    
+
+<p begin="00:00:00.74" end="00:00:02.42">Hi. My name is Steve Young, and I&apos;m one</p>
+    
+<p begin="00:00:02.42" end="00:00:06.18">of the ACCESS academic advisors here at DeSales University.</p>
+    
+<p begin="00:00:06.18" end="00:00:09.52">Welcome to the Skylight Lounge here in Dooling Hall.</p>
+    
+<p begin="00:00:09.52" end="00:00:15.38">Dooling Hall, as you know, is the hub of activity for ACCESS students.</p>
+    
+<p begin="00:00:15.38" end="00:00:21.90">The Skylight Lounge here is a great place for you to catch a bite to eat, either before class,</p>
+    
+<p begin="00:00:21.90" end="00:00:24.12">or at the break during your class.</p>
+    
+<p begin="00:00:24.12" end="00:00:29.88">It&apos;s also a great place if you&apos;re looking to do some last-minute studying before class.</p>
+    
+<p begin="00:00:29.88" end="00:00:34.18">And also to reconnect or get acquainted with your classmates,</p>
+    
+<p begin="00:00:34.18" end="00:00:37.36">socializing before or in between class.</p>
+    
+<p begin="00:00:37.36" end="00:00:40.81">Their hours during the academic year, they&apos;re open daily.</p>
+    
+<p begin="00:00:40.81" end="00:00:43.91">And during the summer their hours do vary.</p>
+    
+<p begin="00:00:43.91" end="00:00:48.17">So thanks a lot, and I want to wish you the best of luck with your career here</p>
+    
+<p begin="00:00:48.17" end="00:00:49.94">at DeSales and the ACCESS program.</p>
+   
+
+</div>
+  
+
+</body>
+
+</tt>

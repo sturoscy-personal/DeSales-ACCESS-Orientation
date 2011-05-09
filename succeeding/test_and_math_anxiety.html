@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+ 
+<head>
+	<title>DeSales University Access- Succeeding</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+	<meta name="description" content="DeSales University is a private, four-year Catholic college for men and women administered by the Oblates of 
+		St. Francis de Sales, providing premiere college education" />
+
+	<meta name="keywords" content="DeSales University, university, DeSales, desales" />
+
+	<link rel="stylesheet" href="../main.css" type="text/css" media="all" />
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+
+	<script src="http://www.google.com/jsapi?key=ABQIAAAAouTcR5pargXhEAtm4CODuhR1IgWQluDLEZuG6zC4jkkgj3hPMhT_DiGugOsQJmWOxV5nYZepBkPkxg"></script>
+	<script>
+		// Load the latest version of jQuery
+		google.load("jquery", "1");
+		google.load("jqueryui", "1");
+		google.load("swfobject", "2");
+	</script>
+	<script type="text/javascript" src="../js/jwplayer.js"></script>
+	<script type="text/javascript" src="../js/jquery.jwplayer.js"></script>
+	<script type="text/javascript" src="http://html5media.googlecode.com/svn/trunk/src/html5media.min.js"></script>
+
+</head> 
+  
+
+
+<body>  
+
+
+<div id="content"> 
+
+		<div id="navigation_pages">
+		<ul id="nav">
+			<li class="flash_version"><a href="../index.html" title="Flash Version"><img src="../images/main_nav/flash_version.png" alt="Flash Version" /></a></li>
+
+			<li><a href="../home.html" title="Home">Home</a></li>
+
+			<li><a href="../welcome/welcome.html" title="Welcome">Welcome</a></li>
+      				
+          		<li><a href="../tools/tools.html">Tools</a></li>
+				
+			<li><a href="../connections/connections.html">Connections</a></li>
+				
+          		<li class="current"><a href="succeeding.html">Succeeding</a></li>
+				
+          		<li><a href="../essentials/essentials.html">Essentials</a></li>
+				
+          		<li><a href="../services/services.html">Services &amp; Amenities</a></li>
+		</ul>
+		</div>
+
+		
+		
+		<div id="popup_content">
+
+			<ul id="nav">
+				<li><a href="learning_styles.html">Learning Styles</a></li>
+				<li class="current"><a href="test_and_math_anxiety.html">Test Anxiety &amp; Math Anxiety</a></li>
+          			<li><a href="communication_skills.html">Communication Skills</a></li>
+          			<li><a href="memory.html">Memory</a></li>
+				<li><a href="be_good_to_yourself.html">Be Good To Yourself</a></li>
+			</ul>
+		
+		</div>
+								
+		<table>
+			<tr>
+				<td>
+					<h1>Test Anxiety</h1>
+					<p style="padding-top: 35px; padding-right: 20px">Anxiety at the thought of taking an exam is 
+					normal, and beneficial to some degree. It helps to bring focus to the task at hand. Anxiety becomes a problem when 
+					it interferes with the ability to prepare for or perform that task.</p>
+				</td>
+				<td>
+					<h1>Math Anxiety</h1>
+					<p style="padding-top: 25px; padding-right: 20px">Then, there’s math anxiety. Recent research 
+					indicates the very part of the brain required for performing mathematical functions is impaired during periods of 
+					anxiety and stress. This serves to make learning math even more of a challenge leading to greater anxiousness on 
+					the part of the student.</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table class="movies" width="335px">
+						<tr>
+							<td>
+								<br />
+								<center><div id="video1">Loading...</div></center>
+								<br />
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<table class="movies" width="380px">
+						<tr>
+							<td>
+								<div style="text-align: right"><img src="images/john.jpg" alt="John Barkanic- Math Anxiety" /></div>
+								<center><div id="video2">Loading...</div></center>
+								<br />
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+  
+</div> 
+ 
+</body>
+
+<script type="text/javascript">	
+	
+		//iPhone/iPod test
+		if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
+			var file1 = "/media/departments/access/orientation/succeeding/audio_m4v/test_i.m4v";
+			var file2 = "/media//departments/access/orientation/succeeding/audio_m4v/jb_i.m4v";
+		} else {
+			//All other browsers
+			var file1 = "/departments/access/orientation/succeeding/audio_mp4/test.mp4";
+			var file2 = "/departments/access/orientation/succeeding/audio_mp4/jb.mp4";
+		}
+	
+		//Setup jwPlayer
+		jwplayer("video1").setup({
+			file: file1,
+			image: "images/test.jpg",
+			plugins: {
+            			captions: { file: "../content/video/succeeding/test.xml", state: "false" }
+        		},
+			width: "310",
+			height: "340",
+			skin: "../js/stormtrooper/stormtrooper.xml",
+			provider: "rtmp",
+			streamer: "rtmp://mediasrv01.desales.edu/vod/",
+			screencolor: "F5F4F4",
+			players: [
+				{ type: "html5" },
+				{ type: "flash", src: "../js/player.swf" }
+			]
+		});
+
+		//Setup jwPlayer
+		jwplayer("video2").setup({
+			file: file2,
+			image: "images/jb.jpg",
+			plugins: {
+            			captions: { file: "../content/video/succeeding/jb.xml", state: "false" }
+        		},
+			width: "330",
+			height: "249",
+			skin: "../js/stormtrooper/stormtrooper.xml",
+			provider: "rtmp",
+			streamer: "rtmp://mediasrv01.desales.edu/vod/",
+			screencolor: "F5F4F4",
+			players: [
+				{ type: "html5" },
+				{ type: "flash", src: "../js/player.swf" }
+			]
+		});
+
+</script> 
+  
+</html>  

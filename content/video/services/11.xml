@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ 
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/10/ttaf1"  xmlns:tts="http://www.w3.org/2006/10/ttaf1#styling">
+  
+
+<head>
+   
+
+<styling>
+    
+<style id="1" tts:textAlign="center" tts:color="#FFFFFF" tts:backgroundColor="#000000" tts:fontSize="12" tts:fontFamily="Verdana" tts:wrapOption="wrap"/>
+   
+</styling>
+  
+
+</head>
+  
+
+<body>
+   
+
+<div xml:lang="en" style="1">
+ 
+   
+<p begin="00:00:00.93" end="00:00:05.80">Hi my name is Linda Bell; I&apos;m the director of the access program at the Easton Area campus.</p>
+    
+<p begin="00:00:05.80" end="00:00:10.10">We&apos;re located just off routes 33 and 22 in Bethlehem Township.</p>
+    
+<p begin="00:00:10.10" end="00:00:14.36">Our facility consists of 9 class rooms and they are smart class rooms so we&apos;re state</p>
+    
+<p begin="00:00:14.36" end="00:00:18.70">of the art technology, two computer labs and two conference rooms.</p>
+    
+<p begin="00:00:18.70" end="00:00:24.75">We pretty much offer all of the services offered at main campus, things like academic advising,</p>
+    
+<p begin="00:00:24.75" end="00:00:29.21">tutoring, book store facility and financial aid services.</p>
+    
+<p begin="00:00:29.21" end="00:00:32.79">Our staff is ready and willing to help with any questions you may have</p>
+    
+<p begin="00:00:32.79" end="00:00:34.78">so I invite you to stop by and visit.</p>
+    
+<p begin="00:00:34.78" end="00:00:35.12">Thank you.</p>
+   
+
+</div>
+  
+
+</body>
+
+
+</tt>

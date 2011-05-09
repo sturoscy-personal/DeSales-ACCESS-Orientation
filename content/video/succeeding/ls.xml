@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ 
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/10/ttaf1"  xmlns:tts="http://www.w3.org/2006/10/ttaf1#styling">
+  
+
+<head>
+   
+
+<styling>
+    
+<style id="1" tts:textAlign="center" tts:color="#FFFFFF" tts:backgroundColor="#000000" tts:fontSize="12" tts:fontFamily="Verdana" tts:wrapOption="wrap"/>
+   
+</styling>
+  
+
+</head>
+  
+
+<body>
+   
+
+<div xml:lang="en" style="1">
+    
+
+<p begin="00:00:01.69" end="00:00:04.45">Each of us approaches learning in a different way.</p>
+    
+<p begin="00:00:04.45" end="00:00:09.07">Some of us are visual learners-- essentially we learn by seeing.</p>
+    
+<p begin="00:00:09.07" end="00:00:13.41">Some like to listen to what they are learning-- auditory learners.</p>
+    
+<p begin="00:00:13.41" end="00:00:16.53">Others are kinesthetic and prefer learning by doing.</p>
+    
+<p begin="00:00:16.53" end="00:00:19.72">Still others are some combination of the three.</p>
+    
+<p begin="00:00:19.72" end="00:00:22.16">Why is this important?</p>
+    
+<p begin="00:00:22.16" end="00:00:25.11">Understanding how we learn allows us to employ techniques</p>
+    
+<p begin="00:00:25.11" end="00:00:27.42">that best suit the particular learning style.</p>
+    
+<p begin="00:00:27.42" end="00:00:33.27">For example, visual learners may benefit from watching a short video on a particular topic.</p>
+    
+<p begin="00:00:33.27" end="00:00:36.88">An auditory learner may want to read aloud from the textbook.</p>
+    
+<p begin="00:00:36.88" end="00:00:40.17">Kinesthetic learners may find the activity of highlighting material</p>
+    
+<p begin="00:00:40.17" end="00:00:42.52">in the textbook to be beneficial.</p>
+    
+<p begin="00:00:42.52" end="00:00:45.81">To determine your own style of learning and how to make the most of it,</p>
+    
+<p begin="00:00:45.81" end="00:00:49.17">a number of learning style inventories are available on the Internet.</p>
+   
+
+</div>
+  
+
+</body>
+
+
+</tt>

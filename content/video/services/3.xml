@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ 
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/10/ttaf1"  xmlns:tts="http://www.w3.org/2006/10/ttaf1#styling">
+  
+
+<head>
+   
+
+<styling>
+    
+<style id="1" tts:textAlign="center" tts:color="#FFFFFF" tts:backgroundColor="#000000" tts:fontSize="12" tts:fontFamily="Verdana" tts:wrapOption="wrap"/>
+   
+</styling>
+  
+
+</head>
+  
+
+<body>
+   
+
+<div xml:lang="en" style="1">
+    
+
+<p begin="00:00:00.64" end="00:00:02.54">Welcome to DeSales University.</p>
+    
+<p begin="00:00:02.54" end="00:00:07.38">My name is Laura Antonson and I am the Manager of the DeSales Campus Store.</p>
+    
+<p begin="00:00:07.38" end="00:00:13.08">The Center Valley Campus Store is located in the University Center, across from Dooling.</p>
+    
+<p begin="00:00:13.08" end="00:00:16.32">We also have store located at the Easton Campus,</p>
+    
+<p begin="00:00:16.32" end="00:00:19.89">and that is open at the beginning of each semester.</p>
+    
+<p begin="00:00:19.89" end="00:00:26.69">We supply all of your course materials, as well as a large section of imprinted and gift items.</p>
+    
+<p begin="00:00:26.69" end="00:00:32.22">Textbooks for your upcoming semesters are available approximately two weeks before your</p>
+    
+<p begin="00:00:32.22" end="00:00:33.88">course begins.</p>
+    
+<p begin="00:00:33.88" end="00:00:40.40">Easton books will be available at the Center Valley campus, online, and at the Easton camps.</p>
+    
+<p begin="00:00:40.40" end="00:00:48.43">All Center Valley books and online books must be purchased at the Center Valley campus or online.</p>
+    
+<p begin="00:00:48.43" end="00:00:53.52">When sleecting yorucourse materials, please purchase your materials only for the course</p>
+    
+<p begin="00:00:53.52" end="00:00:57.49">that your are currently enrolled in in the updcoming semester.</p>
+    
+<p begin="00:00:57.49" end="00:01:04.91">For an exmpalke if you are in enrolled in the Easton Campus for Session 2 in English 103,</p>
+    
+<p begin="00:01:04.91" end="00:01:22.02">do not purchase the books for EN103, Session 1 for the Center Valley Campus.</p>
+   
+
+</div>
+  
+
+</body>
+
+</tt>

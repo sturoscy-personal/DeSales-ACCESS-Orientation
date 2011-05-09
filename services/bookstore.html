@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+ 
+<head>
+	<title>DeSales University Access- Bookstore</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+	<meta name="description" content="DeSales University is a private, four-year Catholic college for men and women administered by the Oblates of 
+		St. Francis de Sales, providing premiere college education" />
+
+	<meta name="keywords" content="DeSales University, university, DeSales, desales" />
+
+	<link rel="stylesheet" href="../main.css" type="text/css" media="all" />
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+
+	<script src="http://www.google.com/jsapi?key=ABQIAAAAouTcR5pargXhEAtm4CODuhR1IgWQluDLEZuG6zC4jkkgj3hPMhT_DiGugOsQJmWOxV5nYZepBkPkxg"></script>
+	<script>
+		// Load the latest version of jQuery
+		google.load("jquery", "1");
+		google.load("jqueryui", "1");
+		google.load("swfobject", "2");
+	</script>
+	<script type="text/javascript" src="../js/jwplayer.js"></script>
+	<script type="text/javascript" src="../js/jquery.jwplayer.js"></script>
+	<script type="text/javascript" src="http://html5media.googlecode.com/svn/trunk/src/html5media.min.js"></script>
+</head> 
+  
+
+
+<body>  
+
+<div id="content"> 
+
+		<div id="navigation_pages">
+		<ul id="nav">
+			<li class="flash_version"><a href="../index.html" title="Flash Version"><img src="../images/main_nav/flash_version.png" alt="Flash Version" /></a></li>
+
+			<li><a href="../home.html" title="Home">Home</a></li>
+
+			<li><a href="../welcome/welcome.html" title="Welcome">Welcome</a></li>
+      				
+          		<li><a href="../tools/tools.html">Tools</a></li>
+				
+			<li><a href="../connections/connections.html">Connections</a></li>
+				
+          		<li><a href="../succeeding/succeeding.html">Succeeding</a></li>
+				
+          		<li><a href="../essentials/essentials.html">Essentials</a></li>
+				
+          		<li class="current"><a href="services.html">Services &amp; Amenities</a></li>
+		</ul>
+		</div>
+
+
+		<table width="550">
+			<tr>
+				<td style="text-align: right"><div id="back"><a href="services.html">&lt;&lt;&lt; BACK</a></div></td>
+			</tr>
+			<tr>
+				<td><h1>Campus Store</h1></td>
+			</tr>
+			<tr>
+				<td style="padding-top: 5px">
+					<p>Textbooks for your courses, as well as supplies and DeSales University 
+					merchandise are available for purchase from the DeSales University Campus 
+					Store. A satellite store is located at the Easton Area Campus during the 
+					first week of a new session. Textbooks can be preordered and shipped to you 
+					for an additional fee. <a href="http://www.desales.edu/bookstore" target="_blank">Learn More about the Campus Store...</a></p>
+
+				</td>
+			</tr>
+			<tr>
+				<td style="padding-top: 15px">
+					<table class="movies" width="380px">
+							<tr>
+								<td>
+									<div style="text-align: right"><img src="images/3_name.jpg" alt="Laura Antonson- Manager, Campus Stores" /></div>
+									<center><div id="video1">Loading...</div></center>
+									<br />
+								</td>
+							</tr>
+					</table>
+				</td>
+
+			</tr>			
+		</table>					
+  
+</div>
+
+ 
+</body> 
+
+<script type="text/javascript">	
+	
+		//iPhone/iPod test
+		if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
+			var file1 = "/media/departments/access/orientation/services/audio_m4v/3_i.m4v";
+			
+		} else {
+			//All other browsers
+			var file1 = "/departments/access/orientation/services/audio_mp4/3.mp4";
+			
+		}
+	
+		//Setup jwPlayer
+		jwplayer("video1").setup({
+			file: file1,
+			plugins: {
+            			captions: { file: "../content/video/services/3.xml", state: "false" }
+        		},
+			width: "330",
+			height: "249",
+			autostart: true,
+			skin: "../js/stormtrooper/stormtrooper.xml",
+			provider: "rtmp",
+			streamer: "rtmp://mediasrv01.desales.edu/vod/",
+			screencolor: "F5F4F4",
+			players: [
+				{ type: "html5" },
+				{ type: "flash", src: "../js/player.swf" }
+			]
+		});
+
+</script>  
+</html>  

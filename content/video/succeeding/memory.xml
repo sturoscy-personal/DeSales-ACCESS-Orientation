@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ 
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/10/ttaf1"  xmlns:tts="http://www.w3.org/2006/10/ttaf1#styling">
+  
+
+<head>
+   
+
+<styling>
+    
+<style id="1" tts:textAlign="center" tts:color="#FFFFFF" tts:backgroundColor="#000000" tts:fontSize="12" tts:fontFamily="Verdana" tts:wrapOption="wrap"/>
+   
+</styling>
+  
+
+</head>
+  
+
+<body>
+   
+
+<div xml:lang="en" style="1">
+    
+
+<p begin="00:00:01.33" end="00:00:03.78">There is scientific evidence to support the notion</p>
+    
+<p begin="00:00:03.78" end="00:00:06.80">that cognitive ability diminishes with age.</p>
+    
+<p begin="00:00:06.80" end="00:00:12.35">However, adult learners need not worry that they have somehow lost the ability to learn.</p>
+    
+<p begin="00:00:12.35" end="00:00:16.04">One of their best learning assets is their experience.</p>
+    
+<p begin="00:00:16.04" end="00:00:19.00">Often this life and professional experience can be associated</p>
+    
+<p begin="00:00:19.00" end="00:00:21.91">with material presented in classes.</p>
+    
+<p begin="00:00:21.91" end="00:00:26.65">These associations can aid deeper and lasting learning.</p>
+    
+<p begin="00:00:26.65" end="00:00:29.79">Another concern of adult students is memory.</p>
+    
+<p begin="00:00:29.79" end="00:00:34.87">Again, research does indicate the ability to memorize declines with age.</p>
+    
+<p begin="00:00:34.87" end="00:00:39.82">Deep learning requires memorization, analysis and application.</p>
+    
+<p begin="00:00:39.82" end="00:00:43.25">Today, people have many tools to help them recall facts.</p>
+    
+<p begin="00:00:43.25" end="00:00:46.55">So the goal is not the rote memorization that is often forgotten</p>
+    
+<p begin="00:00:46.55" end="00:00:49.24">after the need for memorization is over.</p>
+    
+<p begin="00:00:49.24" end="00:00:51.52">That is superficial learning.</p>
+    
+<p begin="00:00:51.52" end="00:01:12.35">Deep learning allows for connections to be made to real-life situations.</p>
+   
+
+</div>
+  
+
+</body>
+
+
+</tt>

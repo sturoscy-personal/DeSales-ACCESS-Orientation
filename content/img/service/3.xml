@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options>
+
+	<items rolledOver="CCCCCC" rolledOut="333333" selectedColor="ffffff">
+		  <imageName link="" content="content/img/service/1/05.jpg"><![CDATA[<font color="#ff0000">Lorem ipsum dolor sit amet</font> consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.]]></imageName>
+		  <imageName link="" content="content/img/service/1/06.jpg"><![CDATA[<font color="#ff0000">Lorem ipsum dolor sit amet</font> consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.]]></imageName>
+		  <imageName link="" content="content/img/service/1/07.jpg"><![CDATA[<font color="#ff0000">Lorem ipsum dolor sit amet</font> consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.]]></imageName>
+	</items>
+
+
+	<settings>
+	<!-- CHOOSE THE TIME IN SECONDS A IMAGE STAYS ON SCREEN - DEFAULT IS 5 SECONDS -->
+		  <time>5</time> 	 
+		  
+	<!-- CHOOSE IF TO DISPLAY THE CONTROL PANEL -->  
+		  <cpanel>true</cpanel> 
+		  
+	<!-- CHOOSE IF TO DISPLAY THE BULLETS -->  
+		  <tabs>true</tabs>
+	</settings>
+
+</options>

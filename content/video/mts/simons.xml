@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ 
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/10/ttaf1"  xmlns:tts="http://www.w3.org/2006/10/ttaf1#styling">
+  
+
+<head>
+   
+
+<styling>
+    
+<style id="1" tts:textAlign="center" tts:color="#FFFFFF" tts:backgroundColor="#000000" tts:fontSize="12" tts:fontFamily="Verdana" tts:wrapOption="wrap"/>
+   
+</styling>
+  
+
+</head>
+  
+
+<body>
+   
+
+<div xml:lang="en" style="1">
+    
+
+<p begin="00:00:00.44" end="00:00:04.81">I&apos;m Brian Simons, ACCESS student at DeSales University.</p>
+    
+<p begin="00:00:04.81" end="00:00:07.85">I was a Management Major, BA in Management.</p>
+    
+<p begin="00:00:07.85" end="00:00:11.98">I&apos;ve been employed by Verizon Communications for the last 20 years.</p>
+    
+<p begin="00:00:11.98" end="00:00:13.61">I have a technical job with them.</p>
+    
+<p begin="00:00:13.61" end="00:00:21.51">I work in provisioning data, video, and voice circuits for residential and business customers.</p>
+    
+<p begin="00:00:21.51" end="00:00:22.14">I&apos;m married.</p>
+    
+<p begin="00:00:22.14" end="00:00:26.57">I have two children-a 9-year old son and a 6-year old daughter.</p>
+   
+
+</div>
+  
+
+</body>
+
+
+</tt>

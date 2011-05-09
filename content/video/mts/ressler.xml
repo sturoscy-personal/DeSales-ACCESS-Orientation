@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ 
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/10/ttaf1"  xmlns:tts="http://www.w3.org/2006/10/ttaf1#styling">
+  
+
+<head>
+   
+
+<styling>
+    
+<style id="1" tts:textAlign="center" tts:color="#FFFFFF" tts:backgroundColor="#000000" tts:fontSize="12" tts:fontFamily="Verdana" tts:wrapOption="wrap"/>
+   
+</styling>
+  
+
+</head>
+  
+
+<body>
+   
+
+<div xml:lang="en" style="1">
+
+    
+<p begin="00:00:00.30" end="00:00:01.98">Hi, my name&apos;s Shelene.</p>
+    
+<p begin="00:00:01.98" end="00:00:05.47">I am an ACCESS student at DeSales University.</p>
+    
+<p begin="00:00:05.47" end="00:00:09.69">I have a dual major-it&apos;s Business Management and Marketing.</p>
+    
+<p begin="00:00:09.69" end="00:00:16.00">I first started at DeSales in &apos;99.</p>
+    
+<p begin="00:00:16.00" end="00:00:21.13">I was in Operations and I wanted to become an Operations Manager.</p>
+    
+<p begin="00:00:21.13" end="00:00:26.36">So I came back to school as a Business major, Business Management.</p>
+    
+<p begin="00:00:26.36" end="00:00:30.89">And life changes, I took 6 years off, and when I came back,</p>
+    
+<p begin="00:00:30.89" end="00:00:34.95">I found that I had a passion for advertising and marketing.</p>
+    
+<p begin="00:00:34.95" end="00:00:40.59">At the time, I didn&apos;t have any of my electives completed-I was working</p>
+    
+<p begin="00:00:40.59" end="00:00:42.88">on all my core courses the previous time I was here.</p>
+    
+<p begin="00:00:42.88" end="00:00:47.18">I had enough to add Marketing as a second major.</p>
+    
+<p begin="00:00:47.18" end="00:00:48.41">I work at B. Braun Medical.</p>
+    
+<p begin="00:00:48.41" end="00:00:55.94">I&apos;m working as Project Administrator right now, and I work full time.</p>
+    
+<p begin="00:00:55.94" end="00:01:01.70">And as of this evening, I&apos;m finished with my school full time.</p>
+    
+<p begin="00:01:01.70" end="00:01:03.70">Happy dance!</p>
+   
+
+</div>
+  
+
+</body>
+
+
+</tt>

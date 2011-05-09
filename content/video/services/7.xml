@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ 
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/10/ttaf1"  xmlns:tts="http://www.w3.org/2006/10/ttaf1#styling">
+  
+
+<head>
+   
+
+<styling>
+    
+<style id="1" tts:textAlign="center" tts:color="#FFFFFF" tts:backgroundColor="#000000" tts:fontSize="12" tts:fontFamily="Verdana" tts:wrapOption="wrap"/>
+   
+</styling>
+  
+
+</head>
+  
+
+<body>
+   
+
+<div xml:lang="en" style="1">
+    
+
+<p begin="00:00:01.12" end="00:00:04.52">Hi, my name is Jessica McGovern and I am an Academic Advisor</p>
+    
+<p begin="00:00:04.52" end="00:00:07.70">at the ACCESS program at the Easton Area Campus.</p>
+    
+<p begin="00:00:07.70" end="00:00:09.70">I&apos;d like to give you a little bit more information</p>
+    
+<p begin="00:00:09.70" end="00:00:12.67">on tutoring through the ACCESS program.</p>
+    
+<p begin="00:00:12.67" end="00:00:16.92">The Academic Resource Center, which is located in Room 23 of Dooling Hall,</p>
+    
+<p begin="00:00:16.92" end="00:00:21.43">provides tutoring to ACCESS students for a specific number of classes.</p>
+    
+<p begin="00:00:21.43" end="00:00:27.09">If you need assistance in tutoring with any of your classes please see your academic advisor.</p>
+    
+<p begin="00:00:27.09" end="00:00:32.33">Tutoring is provided for a specific number of classes free of charge to our students</p>
+    
+<p begin="00:00:32.33" end="00:00:35.02">and is handled in group sessions.</p>
+    
+<p begin="00:00:35.02" end="00:00:35.38">Thank you.</p>
+   
+
+</div>
+  
+
+</body>
+
+
+</tt>

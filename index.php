@@ -1,0 +1,83 @@
+<?php 
+	require_once('includes/mobile_device_detect.php');
+	mobile_device_detect('http://deit.desales.edu/access/home.html','http://deit.desales.edu/access/home.html',false,false,false,false,false,false,false);
+?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>DeSales University. ACCESS.</title>
+<script language="javascript">AC_FL_RunContent = 0;</script>
+<script src="AC_RunActiveContent.js" language="javascript"></script>
+<style type="text/css">    
+	body {margin:0px; padding:0px; background: url('images/bkground.jpg');}
+	.main_body {height:590px; width:935px;}
+	.bg_lr {background: url('content/bgsand.png');}
+</style>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-15284864-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</head>
+<body>
+<!--url's used in the movie-->
+<!--text used in the movie-->
+<!--100%100%100%-->
+<!-- saved from url=(0013)about:internet -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="bg_lr">&nbsp;</td>
+    <td class="main_body">   
+    <center> 
+    <script language="javascript">
+		if (AC_FL_RunContent == 0) {
+			alert("This page requires AC_RunActiveContent.js.");
+		} else {
+			AC_FL_RunContent(
+				'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
+				'width', '935',
+				'height', '590',
+				'src', 'deSales4resize26',
+				'quality', 'high',
+				'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+				'align', 'top',
+				'play', 'true',
+				'loop', 'true',
+				'scale', 'showall',
+				'wmode', 'window',
+				'devicefont', 'false',
+				'id', 'deSales4resize26',
+				'bgcolor', '#ffffff',
+				'name', 'deSales4resize26',
+				'menu', 'true',
+				'allowFullScreen', 'true',
+				'allowScriptAccess','sameDomain',
+				'movie', 'deSales4resize26',
+				'salign', ''
+				); //end AC code
+		}
+	</script>
+<!--<noscript>
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="935" height="590" id="deSales4resize26" align="top">
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="allowFullScreen" value="true" />
+	<param name="movie" value="deSales4resize26.swf" /><param name="quality" value="high" /><param name="wmode" value="transparent" /><param name="bgcolor" value="#ffffff" />	<embed src="deSales4resize26.swf" quality="high" wmode="transparent" bgcolor="#ffffff" width="935" height="590" name="deSales4resize26" align="top" allowScriptAccess="sameDomain" allowFullScreen="true" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+	</object>
+</noscript>-->
+	</center>
+    </td>
+    <td class="bg_lr">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

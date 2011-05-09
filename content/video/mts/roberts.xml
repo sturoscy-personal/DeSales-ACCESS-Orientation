@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ 
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/10/ttaf1"  xmlns:tts="http://www.w3.org/2006/10/ttaf1#styling">
+  
+
+<head>
+   
+
+<styling>
+    
+<style id="1" tts:textAlign="center" tts:color="#FFFFFF" tts:backgroundColor="#000000" tts:fontSize="12" tts:fontFamily="Verdana" tts:wrapOption="wrap"/>
+   
+</styling>
+  
+
+</head>
+  
+
+<body>
+   
+
+<div xml:lang="en" style="1">
+    
+
+<p begin="00:00:00.25" end="00:00:00.99">I&apos;m Wayne Roberts.</p>
+    
+<p begin="00:00:00.99" end="00:00:03.94">I&apos;m a graduate of the DeSales University ACCESS program.</p>
+    
+<p begin="00:00:03.94" end="00:00:07.32">I graduated in 2010, in the Business Dept.</p>
+    
+<p begin="00:00:07.32" end="00:00:11.55">I had been trying to go back to school for probably 20 years, but with my business schedule</p>
+    
+<p begin="00:00:11.55" end="00:00:14.18">and work schedule it was really impossible to get it done.</p>
+    
+<p begin="00:00:14.18" end="00:00:19.47">I managed to take a small break from a full-time career and decided that I absolutely wanted</p>
+    
+<p begin="00:00:19.47" end="00:00:22.17">to get my degree taken care of, so this worked out really well for us.</p>
+   
+
+</div>
+  
+
+</body>
+
+
+</tt>
