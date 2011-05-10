@@ -25,10 +25,14 @@
 	<script type="text/javascript" src="../js/jwplayer.js"></script>
 	<script type="text/javascript" src="../js/jquery.jwplayer.js"></script>
 	<script type="text/javascript" src="http://html5media.googlecode.com/svn/trunk/src/html5media.min.js"></script>
+		
 
 </head> 
+  
+
 
 <body>  
+
 
 <div id="content"> 
 
@@ -73,8 +77,8 @@
 					<table class="movies" width="380px">
 						<tr>
 							<td>
-								<div style="text-align: right"><img src="images/shelene.jpg" alt="Shelene Ressler- Management" /></div>
-								<center><div id="video3">Loading...</div></center>
+								<div style="text-align: right"><img src="images/simone.jpg" alt="Simone Phillips- Clinical Psychology" /></div>
+								<center><div id="video2">Loading...</div></center>
 								<br />
 							</td>
 						</tr>
@@ -89,8 +93,8 @@
 					<table class="movies" width="380px">
 						<tr>
 							<td>
-								<div style="text-align: right"><img src="images/brian.jpg" alt="Brian Simons- Management" /></div>
-								<center><div id="video4">Loading...</div></center>
+								<div style="text-align: right"><img src="images/shelene.jpg" alt="Shelene Ressler- Management" /></div>
+								<center><div id="video3">Loading...</div></center>
 								<br />
 							</td>
 						</tr>
@@ -103,8 +107,38 @@
 					<table class="movies" width="380px">
 						<tr>
 							<td>
+								<div style="text-align: right"><img src="images/brian.jpg" alt="Brian Simons- Management" /></div>
+								<center><div id="video4">Loading...</div></center>
+								<br />
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3">&nbsp;</td>
+			</tr>
+			<tr>
+				<td>
+					<table class="movies" width="380px">
+						<tr>
+							<td>
 								<div style="text-align: right"><img src="images/wayne.jpg" alt="Wayne Roberts- Management" /></div>
 								<center><div id="video5">Loading...</div></center>
+								<br />
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					&nbsp;
+				</td>
+				<td>
+					<table class="movies" width="380px">
+						<tr>
+							<td>
+								<div style="text-align: right"><img src="images/nina.jpg" alt="Nina Corona- Theology" /></div>
+								<center><div id="video6">Loading...</div></center>
 								<br />
 							</td>
 						</tr>
@@ -120,24 +154,28 @@
  
 </body>  
 
+
+
+
+
 <script type="text/javascript">	
 	
 		//iPhone/iPod test
 		if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
 			var file  = "/media/departments/access/orientation/meet_the_students/audio_m4v/welkie_i.m4v";
-			//var file2 = "/media/departments/access/orientation/meet_the_students/audio_m4v/phillips_i.m4v";
+			var file2 = "/media/departments/access/orientation/meet_the_students/audio_m4v/phillips_i.m4v";
 			var file3 = "/media/departments/access/orientation/meet_the_students/audio_m4v/ressler_i.m4v";
 			var file4 = "/media/departments/access/orientation/meet_the_students/audio_m4v/simons_i.m4v";
 			var file5 = "/media/departments/access/orientation/meet_the_students/audio_m4v/roberts_i.m4v";
-			//var file6 = "/media/departments/access/orientation/meet_the_students/audio_m4v/corona_i.m4v";
+			var file6 = "/media/departments/access/orientation/meet_the_students/audio_m4v/corona_i.m4v";
 		} else {
 			//All other browsers
 			var file  = "/departments/access/orientation/meet_the_students/audio_mp4/welkie.mp4";
-			//var file2 = "/departments/access/orientation/meet_the_students/audio_mp4/phillips.mp4";
+			var file2 = "/departments/access/orientation/meet_the_students/audio_mp4/phillips.mp4";
 			var file3 = "/departments/access/orientation/meet_the_students/audio_mp4/ressler.mp4";
 			var file4 = "/departments/access/orientation/meet_the_students/audio_mp4/simons.mp4";
 			var file5 = "/departments/access/orientation/meet_the_students/audio_mp4/roberts.mp4";
-			//var file6 = "/departments/access/orientation/meet_the_students/audio_mp4/corona.mp4";
+			var file6 = "/departments/access/orientation/meet_the_students/audio_mp4/corona.mp4";
 		}
 	
 		//Setup jwPlayer
@@ -159,7 +197,6 @@
 		});
 
 		//Setup jwPlayer
-		/*
 		jwplayer("video2").setup({
 			file: file2,
 			image: "images/phillips.jpg",
@@ -177,7 +214,6 @@
 				{ type: "flash", src: "../js/player.swf" }
 			]
 		});
-		*/
 		
 		//Setup jwPlayer
 		jwplayer("video3").setup({
@@ -237,7 +273,6 @@
 		});
 
 		//Setup jwPlayer
-		/*
 		jwplayer("video6").setup({
 			file: file6,
 			image: "images/corona.jpg",
@@ -255,7 +290,6 @@
 				{ type: "flash", src: "../js/player.swf" }
 			]
 		});
-		*/
 		
 </script>
 

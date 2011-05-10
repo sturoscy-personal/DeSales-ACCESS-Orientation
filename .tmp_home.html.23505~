@@ -16,6 +16,9 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
 
+
+
+
 <script type="text/javascript">
 <!--
 var image1=new Image()
@@ -34,8 +37,11 @@ image6.src="images/homepage/welcome6.png"
 </script>
 
 </head> 
+  
+
 
 <body>  
+
 
 <div id="container" class="typeface-js" style="font-family: 'Calibri'"> 
 

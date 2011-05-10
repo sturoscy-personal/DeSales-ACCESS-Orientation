@@ -26,8 +26,11 @@
 	<script type="text/javascript" src="../js/jquery.jwplayer.js"></script>
 	<script type="text/javascript" src="http://html5media.googlecode.com/svn/trunk/src/html5media.min.js"></script>
 </head> 
+  
+
 
 <body>  
+
 
 <div id="content"> 
 
@@ -83,7 +86,7 @@
 				<td colspan="2">&nbsp;</td>
 			</tr>
 			<tr>
-				<td>
+				<td colspan="2">
 					<table class="movies" width="380px">
 						<tr>
 							<td>
@@ -94,7 +97,28 @@
 						</tr>
 					</table>
 				</td>
-				<td>
+			</tr>
+			<tr>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<table class="movies" width="380px">
+						<tr>
+							<td>
+								<div style="text-align: right"><img src="images/nina.jpg" alt="Nina Corona- Theology" /></div>
+								<center><div id="video2">Loading...</div></center>
+								<br />
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="2">
 					<table class="movies" width="380px">
 						<tr>
 							<td>
@@ -105,8 +129,28 @@
 						</tr>
 					</table>
 				</td>
+			</tr>
+			<tr>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<table class="movies" width="380px">
+						<tr>
+							<td>
+								<div style="text-align: right"><img src="images/simone.jpg" alt="Simone Phillips- Clinical Psychology" /></div>
+								<center><div id="video4">Loading...</div></center>
+								<br />
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">&nbsp;</td>
 			</tr>	
 		</table>		
+		<br />
 		<br />
   
 </div> 
@@ -114,18 +158,19 @@
 </body>  
 
 <script type="text/javascript">	
+	
 		//iPhone/iPod test
 		if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
 			var file1 = "/media/departments/access/orientation/connections/audio_m4v/shelene_conn_i.m4v";
-			//var file2 = "/media/departments/access/orientation/connections/audio_m4v/nina_conn_i.m4v";
+			var file2 = "/media/departments/access/orientation/connections/audio_m4v/nina_conn_i.m4v";
 			var file3 = "/media/departments/access/orientation/connections/audio_m4v/pam_conn_i.m4v";
-			//var file4 = "/media/departments/access/orientation/connections/audio_m4v/simone_conn_i.m4v";
+			var file4 = "/media/departments/access/orientation/connections/audio_m4v/simone_conn_i.m4v";
 		} else {
 			//All other browsers
 			var file1 = "/departments/access/orientation/connections/audio_mp4/shelene_conn.mp4";
-			//var file2 = "/departments/access/orientation/connections/audio_mp4/nina_conn.mp4";
+			var file2 = "/departments/access/orientation/connections/audio_mp4/nina_conn.mp4";
 			var file3 = "/departments/access/orientation/connections/audio_mp4/pam_conn.mp4";
-			//var file4 = "/departments/access/orientation/connections/audio_mp4/simone_conn.mp4";
+			var file4 = "/departments/access/orientation/connections/audio_mp4/simone_conn.mp4";
 		}
 
 
@@ -148,7 +193,7 @@
 			]
 		});
 
-		//Setup jwPlayer		/*
+		//Setup jwPlayer
 		jwplayer("video2").setup({
 			file: file2,
 			image: "images/corona.jpg",
@@ -166,7 +211,6 @@
 				{ type: "flash", src: "../js/player.swf" }
 			]
 		});
-		*/
 
 		//Setup jwPlayer
 		jwplayer("video3").setup({
@@ -187,7 +231,7 @@
 			]
 		});
 
-		//Setup jwPlayer		/*
+		//Setup jwPlayer
 		jwplayer("video4").setup({
 			file: file4,
 			image: "images/phillips.jpg",
@@ -205,6 +249,8 @@
 				{ type: "flash", src: "../js/player.swf" }
 			]
 		});
-		*/
+		
+
+		
 </script>
 </html>  

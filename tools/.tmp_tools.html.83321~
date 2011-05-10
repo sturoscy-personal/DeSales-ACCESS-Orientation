@@ -28,7 +28,10 @@
 
 </head> 
   
+
+
 <body>  
+
 
 <div id="content"> 
 
@@ -127,6 +130,27 @@
 						</tr>
 					</table>
 				</td>
+			</tr>
+			<tr>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<table class="movies" width="380px">
+						<tr>
+							<td>
+								<div style="text-align: right"><img src="images/nina.jpg" alt="Nina Corona- Theology" /></div>
+								<center><div id="video3">Loading...</div></center>
+								<br />
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+			<tr>
 				<td colspan="2">
 					<table class="movies" width="380px">
 						<tr>
@@ -138,10 +162,30 @@
 						</tr>
 					</table>
 				</td>
+			</tr>
+			<tr>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<table class="movies" width="380px">
+						<tr>
+							<td>
+								<div style="text-align: right"><img src="images/simone.jpg" alt="Simone Phillips- Clinical Psychology" /></div>
+								<center><div id="video5">Loading...</div></center>
+								<br />
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">&nbsp;</td>
 			</tr>	
 		</table>		
 		<br />
 		<br />
+  
 </div> 
  
 </body>  
@@ -152,16 +196,16 @@
 		if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
 			var file1 = "/media/departments/access/orientation/tools/audio_m4v/tonya_audio_i.m4v";
 			var file2 = "/media/departments/access/orientation/tools/audio_m4v/shelene_tools_i.m4v";
-			//var file3 = "/media/departments/access/orientation/tools/audio_m4v/nina_tools_i.m4v";
+			var file3 = "/media/departments/access/orientation/tools/audio_m4v/nina_tools_i.m4v";
 			var file4 = "/media/departments/access/orientation/tools/audio_m4v/pam_tools_i.m4v";
-			//var file5 = "/media/departments/access/orientation/tools/audio_m4v/simone_tools_i.m4v";
+			var file5 = "/media/departments/access/orientation/tools/audio_m4v/simone_tools_i.m4v";
 		} else {
 			//All other browsers
 			var file1 = "/departments/access/orientation/tools/audio_mp4/tonya_audio.mp4";
 			var file2 = "/departments/access/orientation/tools/audio_mp4/shelene_tools.mp4";
-			//var file3 = "/departments/access/orientation/tools/audio_mp4/nina_tools.mp4";
+			var file3 = "/departments/access/orientation/tools/audio_mp4/nina_tools.mp4";
 			var file4 = "/departments/access/orientation/tools/audio_mp4/pam_tools.mp4";
-			//var file5 = "/departments/access/orientation/tools/audio_mp4/simone_tools.mp4";
+			var file5 = "/departments/access/orientation/tools/audio_mp4/simone_tools.mp4";
 		}
 	
 		//Setup jwPlayer
@@ -203,7 +247,7 @@
 			]
 		});
 
-		//Setup jwPlayer		/*
+		//Setup jwPlayer
 		jwplayer("video3").setup({
 			file: file3,
 			image: "images/corona.jpg",
@@ -221,7 +265,6 @@
 				{ type: "flash", src: "../js/player.swf" }
 			]
 		});
-		*/
 
 		//Setup jwPlayer
 		jwplayer("video4").setup({
@@ -242,7 +285,7 @@
 			]
 		});
 
-		//Setup jwPlayer		/*
+		//Setup jwPlayer
 		jwplayer("video5").setup({
 			file: file5,
 			image: "images/phillips.jpg",
@@ -260,6 +303,8 @@
 				{ type: "flash", src: "../js/player.swf" }
 			]
 		});
-		*/
+		
+
+		
 </script>
 </html>  

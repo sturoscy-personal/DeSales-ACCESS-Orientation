@@ -26,8 +26,11 @@
 	<script type="text/javascript" src="../js/jquery.jwplayer.js"></script>
 	<script type="text/javascript" src="http://html5media.googlecode.com/svn/trunk/src/html5media.min.js"></script>
 </head> 
- 
+  
+
+
 <body>  
+
 
 <div id="content"> 
 
@@ -51,6 +54,8 @@
 				</ul>
 			</div>
 
+
+
 			<table>
 				<tr>
 					<td>
@@ -64,9 +69,27 @@
 							</tr>
 						</table>
 					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
 					<td>
-						&nbsp;
+						<table class="movies" width="380px">
+							<tr>
+								<td>
+									<div style="text-align: right"><img src="images/access.jpg" alt="ACCESS Students" /></div>
+									<center><div id="video2">Loading...</div></center>
+									<br />
+								</td>
+							</tr>
+						</table>
 					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
 					<td>
 						<table class="movies" width="380px">
 							<tr>
@@ -79,7 +102,11 @@
 						</table>
 					</td>
 				</tr>
+				<tr>
+					<td>&nbsp;</td>
+				</tr>
 			</table>
+  
 </div>
 
 
@@ -87,17 +114,19 @@
 </body>  
 
 <script type="text/javascript">	
+	
 		//iPhone/iPod test
 		if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
 			var file1 = "/media/departments/access/orientation/welcome/audio_m4v/debbie_boros_i.m4v";
-			//var file2 = "/media/departments/access/orientation/welcome/audio_m4v/w_d_y_choose_desales_i.m4v";
+			var file2 = "/media/departments/access/orientation/welcome/audio_m4v/w_d_y_choose_desales_i.m4v";
 			var file3 = "/media/departments/access/orientation/welcome/audio_m4v/ft_dailey_i.m4v";
 		} else {
 			//All other browsers
 			var file1 = "/departments/access/orientation/welcome/audio_mp4/debbie_boros.mp4";
-			//var file2 = "/departments/access/orientation/welcome/audio_mp4/w_d_y_choose_desales.mp4";
+			var file2 = "/departments/access/orientation/welcome/audio_mp4/w_d_y_choose_desales.mp4";
 			var file3 = "/departments/access/orientation/welcome/audio_mp4/ft_dailey.mp4";
 		}
+	
 		//Setup jwPlayer
 		jwplayer("video1").setup({
 			file: file1,
@@ -118,7 +147,7 @@
 		});
 
 		
-		//Setup jwPlayer		/*
+		//Setup jwPlayer
 		jwplayer("video2").setup({
 			file: file2,
 			image: "images/nina_corona.jpg",
@@ -136,7 +165,6 @@
 				{ type: "flash", src: "../js/player.swf" }
 			]
 		});
-		*/
 		
 		//Setup jwPlayer
 		jwplayer("video3").setup({
