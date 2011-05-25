@@ -23,12 +23,16 @@
 		google.load("swfobject", "2");
 	</script>
 	<script type="text/javascript" src="../js/jwplayer.js"></script>
-	<script type="text/javascript" src="../js/jquery.jwplayer.js"></script>
+	<script type="text/javascript" src="../js/jquery.jwplayer.js"></script>
 	<script type="text/javascript" src="http://html5media.googlecode.com/svn/trunk/src/html5media.min.js"></script>
+
 
 </head> 
   
+
+
 <body>  
+
 
 <div id="content"> 
 
@@ -95,40 +99,43 @@
 				<td>
 			</tr>
 		
+
 		</table>
 
+  
 </div> 
  
 </body>  
 
 <script type="text/javascript">	
+	
 		//iPhone/iPod test
-		if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
-			var file1 = "/media/departments/access/orientation/succeeding/audio_m4v/saas_i.m4v";
-		} else {
-			//All other browsers
-			//Old File Commented Out - sft (5/25/2011)
-			//var file1 = "/departments/access/orientation/succeeding/audio_mp4/saas.mp4";
-			var file1 = "/departments/access/orientation/succeeding/audio_mp4/saas-rev.mp4";
+		if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
+			var file1 = "/media/departments/access/orientation/succeeding/audio_m4v/saas_i.m4v";
+		} else {
+			//All other browsers
+			var file1 = "/departments/access/orientation/succeeding/audio_mp4/saas.mp4";
 		}
+	
 		//Setup jwPlayer
 		jwplayer("video1").setup({
 			file: file1,
-			image: "images/saas-rev.jpg",
+			image: "images/saas.jpg",
 			plugins: {
-            	captions: { file: "../content/video/succeeding/saas-rev.xml", state: "false" }
-        	},
-			width: "340",
-			height: "226",
-			skin: "../js/stormtrooper/stormtrooper.xml",
+            			captions: { file: "../content/video/succeeding/saas.xml", state: "false" }
+        		},
+			width: "340",
+			height: "226",
+			skin: "../js/stormtrooper/stormtrooper.xml",
 			provider: "rtmp",
 			streamer: "rtmp://mediasrv01.desales.edu/vod/",
-			screencolor: "F5F4F4",
-			players: [
-				{ type: "html5" },
-				{ type: "flash", src: "../js/player.swf" }
-			]
+			screencolor: "F5F4F4",
+			players: [
+				{ type: "html5" },
+				{ type: "flash", src: "../js/player.swf" }
+			]
 		});
-		
+
 </script> 
-</html>
+
+</html>  

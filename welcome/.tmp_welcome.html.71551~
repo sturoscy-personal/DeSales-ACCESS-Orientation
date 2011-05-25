@@ -23,7 +23,7 @@
 		google.load("swfobject", "2");
 	</script>
 	<script type="text/javascript" src="../js/jwplayer.js"></script>
-	<script type="text/javascript" src="../js/jquery.jwplayer.js"></script>
+	<script type="text/javascript" src="../js/jquery.jwplayer.js"></script>
 	<script type="text/javascript" src="http://html5media.googlecode.com/svn/trunk/src/html5media.min.js"></script>
 </head> 
  
@@ -33,7 +33,7 @@
 
 			<div id="navigation_pages">
 				<ul id="nav">
-					<li class="flash_version"><a href="../index.php" title="Flash Version"><img src="../images/main_nav/flash_version.png" alt="Flash Version" /></a></li>
+					<li class="flash_version"><a href="../index.html" title="Flash Version"><img src="../images/main_nav/flash_version.png" alt="Flash Version" /></a></li>
 
 					<li><a href="../home.html" title="Home">Home</a></li>
 
@@ -67,23 +67,6 @@
 					<td>
 						&nbsp;
 					</td>
-					
-					<td>
-						<table class="movies" width="380px">
-							<tr>
-								<td>
-									<div style="text-align: right"><img src="images/access.jpg" alt="ACCESS Students" /></div>
-									<center><div id="video2">Loading...</div></center>
-									<br />
-								</td>
-							</tr>
-						</table>
-					</td>
-				</tr>
-			</table>
-			
-			<table>
-				<tr>
 					<td>
 						<table class="movies" width="380px">
 							<tr>
@@ -98,6 +81,8 @@
 				</tr>
 			</table>
 </div>
+
+
  
 </body>  
 
@@ -105,14 +90,12 @@
 		//iPhone/iPod test
 		if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
 			var file1 = "/media/departments/access/orientation/welcome/audio_m4v/debbie_boros_i.m4v";
-			var file2 = "/media/departments/access/orientation/welcome/audio_m4v/w_d_y_choose_desales_i.m4v";
+			//var file2 = "/media/departments/access/orientation/welcome/audio_m4v/w_d_y_choose_desales_i.m4v";
 			var file3 = "/media/departments/access/orientation/welcome/audio_m4v/ft_dailey_i.m4v";
 		} else {
 			//All other browsers
 			var file1 = "/departments/access/orientation/welcome/audio_mp4/debbie_boros.mp4";
-			//Old File Commented Out - sft (5/25/2011)
 			//var file2 = "/departments/access/orientation/welcome/audio_mp4/w_d_y_choose_desales.mp4";
-			var file2 = "/departments/access/orientation/welcome/audio_mp4/w_d_y_choose_desales-rev.mp4";
 			var file3 = "/departments/access/orientation/welcome/audio_mp4/ft_dailey.mp4";
 		}
 		//Setup jwPlayer
@@ -135,24 +118,25 @@
 		});
 
 		
-		//Setup jwPlayer
-		jwplayer("video2").setup({
+		//Setup jwPlayer		/*
+		jwplayer("video2").setup({
 			file: file2,
-			image: "images/roberts.jpg",
+			image: "images/nina_corona.jpg",
 			plugins: {
-            	captions: { file: "../content/video/welcome/w_d_y_choose_desales_new-rev.xml", state: "false" }
-        	},
-			width: "330",
-			height: "249",
-			skin: "../js/stormtrooper/stormtrooper.xml",
-			provider: "rtmp",
+            			captions: { file: "../content/video/welcome/w_d_y_choose_desales_new.xml", state: "false" }
+        		},
+			width: "330",
+			height: "249",
+			skin: "../js/stormtrooper/stormtrooper.xml",
+			provider: "rtmp",
 			streamer: "rtmp://mediasrv01.desales.edu/vod/",
-			screencolor: "000000",
-			players: [
-				{ type: "html5" },
-				{ type: "flash", src: "../js/player.swf" }
-			]
+			screencolor: "000000",
+			players: [
+				{ type: "html5" },
+				{ type: "flash", src: "../js/player.swf" }
+			]
 		});
+		*/
 		
 		//Setup jwPlayer
 		jwplayer("video3").setup({

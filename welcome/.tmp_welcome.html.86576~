@@ -110,9 +110,7 @@
 		} else {
 			//All other browsers
 			var file1 = "/departments/access/orientation/welcome/audio_mp4/debbie_boros.mp4";
-			//Old File Commented Out - sft (5/25/2011)
-			//var file2 = "/departments/access/orientation/welcome/audio_mp4/w_d_y_choose_desales.mp4";
-			var file2 = "/departments/access/orientation/welcome/audio_mp4/w_d_y_choose_desales-rev.mp4";
+			var file2 = "/departments/access/orientation/welcome/audio_mp4/w_d_y_choose_desales.mp4";
 			var file3 = "/departments/access/orientation/welcome/audio_mp4/ft_dailey.mp4";
 		}
 		//Setup jwPlayer
@@ -136,22 +134,22 @@
 
 		
 		//Setup jwPlayer
-		jwplayer("video2").setup({
+		jwplayer("video2").setup({
 			file: file2,
-			image: "images/roberts.jpg",
+			image: "images/nina_corona.jpg",
 			plugins: {
-            	captions: { file: "../content/video/welcome/w_d_y_choose_desales_new-rev.xml", state: "false" }
-        	},
-			width: "330",
-			height: "249",
-			skin: "../js/stormtrooper/stormtrooper.xml",
-			provider: "rtmp",
+            			captions: { file: "../content/video/welcome/w_d_y_choose_desales_new.xml", state: "false" }
+        		},
+			width: "330",
+			height: "249",
+			skin: "../js/stormtrooper/stormtrooper.xml",
+			provider: "rtmp",
 			streamer: "rtmp://mediasrv01.desales.edu/vod/",
-			screencolor: "000000",
-			players: [
-				{ type: "html5" },
-				{ type: "flash", src: "../js/player.swf" }
-			]
+			screencolor: "000000",
+			players: [
+				{ type: "html5" },
+				{ type: "flash", src: "../js/player.swf" }
+			]
 		});
 		
 		//Setup jwPlayer

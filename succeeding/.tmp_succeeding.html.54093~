@@ -114,7 +114,7 @@
 		//Setup jwPlayer
 		jwplayer("video1").setup({
 			file: file1,
-			image: "images/saas-rev.jpg",
+			image: "images/saas.jpg",
 			plugins: {
             	captions: { file: "../content/video/succeeding/saas-rev.xml", state: "false" }
         	},
