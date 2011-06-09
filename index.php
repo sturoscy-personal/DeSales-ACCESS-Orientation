@@ -69,9 +69,13 @@
 	</script>
 <!--<noscript>
 	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="935" height="590" id="deSales4resize26" align="top">
-	<param name="allowScriptAccess" value="sameDomain" />
-	<param name="allowFullScreen" value="true" />
-	<param name="movie" value="deSales4resize26.swf" /><param name="quality" value="high" /><param name="wmode" value="transparent" /><param name="bgcolor" value="#ffffff" />	<embed src="deSales4resize26.swf" quality="high" wmode="transparent" bgcolor="#ffffff" width="935" height="590" name="deSales4resize26" align="top" allowScriptAccess="sameDomain" allowFullScreen="true" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+		<param name="allowScriptAccess" value="sameDomain" />
+		<param name="allowFullScreen" value="true" />
+		<param name="movie" value="deSales4resize26.swf" />
+		<param name="quality" value="high" />
+		<param name="wmode" value="transparent" />
+		<param name="bgcolor" value="#ffffff" />
+		<embed src="deSales4resize26.swf" quality="high" wmode="transparent" bgcolor="#ffffff" width="935" height="590" name="deSales4resize26" align="top" allowScriptAccess="sameDomain" allowFullScreen="true" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
 	</object>
 </noscript>-->
 	</center>
