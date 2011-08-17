@@ -33,7 +33,7 @@
 
 			<div id="navigation_pages">
 				<ul id="nav">
-					<li class="flash_version"><a href="../index.html" title="Flash Version"><img src="../images/main_nav/flash_version.png" alt="Flash Version" /></a></li>
+					<li class="flash_version"><a href="../index.php" title="Flash Version"><img src="../images/main_nav/flash_version.png" alt="Flash Version" /></a></li>
 
 					<li><a href="../home.html" title="Home">Home</a></li>
 
