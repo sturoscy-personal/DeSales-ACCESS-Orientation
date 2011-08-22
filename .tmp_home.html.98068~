@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+ 
+<head>
+	<title>DeSales University Access</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+	<meta name="description" content="DeSales University is a private, four-year Catholic college for men and women administered by the Oblates of 
+		St. Francis de Sales, providing premiere college education" />
+
+	<meta name="keywords" content="DeSales University, university, DeSales, desales" />
+
+	<link rel="stylesheet" href="main.css" type="text/css" media="all" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+
+<script type="text/javascript">
+<!--
+var image1=new Image()
+image1.src="images/homepage/welcome1.png"
+var image2=new Image()
+image2.src="images/homepage/welcome2.png"
+var image3=new Image()
+image3.src="images/homepage/welcome3.png"
+var image4=new Image()
+image4.src="images/homepage/welcome4.png"
+var image5=new Image()
+image5.src="images/homepage/welcome5.png"
+var image6=new Image()
+image6.src="images/homepage/welcome6.png"
+//-->
+</script>
+
+</head> 
+
+<body>  
+
+<div id="container" class="typeface-js" style="font-family: 'Calibri'"> 
+
+	<div id="homepage">
+
+		<div id="navigation_homepage">
+		<ul id="nav_home">
+			<li class="flash_version"><a href="index.html" title="Flash Version"><img src="images/main_nav/flash_version.png" alt="Flash Version" /></a></li>
+
+			<li class="current"><a href="home.html" title="Home">Home</a></li>
+
+			<li><a href="welcome/welcome.html" title="Welcome">Welcome</a></li>
+
+          		<li><a href="tools/tools.html">Tools</a></li>
+
+			<li><a href="connections/connections.html">Connections</a></li>
+
+          		<li><a href="succeeding/succeeding.html">Succeeding</a></li>
+
+          		<li><a href="essentials/essentials.html">Essentials</a></li>
+				
+          		<li><a href="services/services.html">Services &amp; Amenities</a></li>
+		</ul>
+		</div>
+
+		<div id="boxes">
+
+		<div class="box1">
+			<a href="meet_the_students/meet_the_students.html" 
+				onMouseOver="document.MyImage1.src='images/homepage/snapshot_hover_rev.png';" 
+				onMouseOut="document.MyImage1.src='images/homepage/snapshot_rev.png';"> 
+			<img src="images/homepage/snapshot_rev.png" name="MyImage1" alt="Meet the Students" />			
+			</a>
+		</div>
+		<div class="box2">
+			<a href="tools/tools.html" 
+				onMouseOver="document.MyImage2.src='images/homepage/laptop_hover.png';" 
+				onMouseOut="document.MyImage2.src='images/homepage/laptop.png';"> 
+			<img src="images/homepage/laptop.png" name="MyImage2" alt="Tools" />
+			</a>
+		</div>
+		<div class="box3">
+			<a href="connections/connections.html" 
+				onMouseOver="document.MyImage3.src='images/homepage/cellphone_hover.png';" 
+				onMouseOut="document.MyImage3.src='images/homepage/cellphone.png';"> 
+			<img src="images/homepage/cellphone.png" name="MyImage3" alt="Connections" />
+			</a>
+		</div>
+		<div class="box4">
+			<a href="succeeding/succeeding.html" 
+				onMouseOver="document.MyImage4.src='images/homepage/notebook_hover.png';" 
+				onMouseOut="document.MyImage4.src='images/homepage/notebook.png';"> 
+			<img src="images/homepage/notebook.png" name="MyImage4" alt="Succeeding" />
+			</a>
+		</div>
+		<div class="box5">
+			<a href="essentials/essentials.html" 
+				onMouseOver="document.MyImage5.src='images/homepage/planner_hover.png';" 
+				onMouseOut="document.MyImage5.src='images/homepage/planner.png';"> 
+			<img src="images/homepage/planner.png" name="MyImage5" alt="Essentials" />
+			</a>
+		</div>
+		<div class="box6">
+			<a href="services/services.html" 
+				onMouseOver="document.MyImage6.src='images/homepage/map_hover.png';" 
+				onMouseOut="document.MyImage6.src='images/homepage/map.png';"> 
+			<img src="images/homepage/map.png" name="MyImage6" alt="Services and Amenities" />
+			</a>
+		</div>
+		<div class="box7">
+			<a href="welcome/welcome.html"><img src="images/homepage/welcome1.png" alt="Welcome" name="slide" width="315" height="235" /></a>
+<script>
+<!--
+var step=1
+function slideit(){
+//if browser does not support the image object, exit.
+if (!document.images)
+return
+document.images.slide.src=eval("image"+step+".src")
+if (step<6)
+step++
+else
+step=1
+//call function "slideit()" every 3.5 seconds
+setTimeout("slideit()",3500)
+}
+slideit()
+//-->
+</script>
+		</div>
+		<div class="box8">
+			<a href="welcome/welcome.html" 
+				onMouseOver="document.MyImage7.src='images/homepage/welcome_hover.gif';" 
+				onMouseOut="document.MyImage7.src='images/homepage/welcome.gif';"> 
+			<img src="images/homepage/welcome.gif" name="MyImage7" alt="Welcome" />
+			</a>
+		</div>
+
+		</div><!------ End of BOXES Div ID -->
+
+	</div><!------ End of HOMEAGE Div ID -->
+  
+</div> 
+ 
+</body>  
+</html>  
