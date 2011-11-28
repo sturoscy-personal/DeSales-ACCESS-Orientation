@@ -15,15 +15,23 @@
 	<link rel="stylesheet" href="../main.css" type="text/css" media="all" />
 	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
 
-	<script src="http://www.google.com/jsapi?key=ABQIAAAAouTcR5pargXhEAtm4CODuhR1IgWQluDLEZuG6zC4jkkgj3hPMhT_DiGugOsQJmWOxV5nYZepBkPkxg"></script>
-	<script>
-		// Load the latest version of jQuery
-		google.load("jquery", "1");
-		google.load("jqueryui", "1");
-		google.load("swfobject", "2");
-	</script>
+	<script src="http://www.google.com/jsapi?key=ABQIAAAAouTcR5pargXhEAtm4CODuhR1IgWQluDLEZuG6zC4jkkgj3hPMhT_DiGugOsQJmWOxV5nYZepBkPkxg"></script>
+
+	<script>
+
+		// Load the latest version of jQuery
+
+		google.load("jquery", "1");
+
+		google.load("jqueryui", "1");
+
+		google.load("swfobject", "2");
+
+	</script>
+
 	<script type="text/javascript" src="../js/jwplayer.js"></script>
-	<script type="text/javascript" src="../js/jquery.jwplayer.js"></script>
+	<script type="text/javascript" src="../js/jquery.jwplayer.js"></script>
+
 	<script type="text/javascript" src="http://html5media.googlecode.com/svn/trunk/src/html5media.min.js"></script>
 </head> 
   
@@ -76,7 +84,7 @@
 					<table class="movies" width="380px">
 							<tr>
 								<td>
-									<div style="text-align: right"><img src="images/2_name.jpg" alt="Karen Tempinksi- Police Chief" /></div>
+									<div style="text-align: right"><img src="images/2_name.jpg" alt="Stuart Bedics- Police Chief" /></div>
 									<center><div id="video1">Loading...</div></center>
 									<br />
 								</td>
@@ -92,37 +100,60 @@
 </body>  
 
 
-<script type="text/javascript">	
-	
-		//iPhone/iPod test
-		if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
+<script type="text/javascript">	
+
+	
+
+		//iPhone/iPod test
+
+		if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
+
 			var file1 = "/media/departments/access/orientation/services/audio_m4v/2_i.m4v";
-			
-		} else {
-			//All other browsers
+			
+
+		} else {
+
+			//All other browsers
+
 			var file1 = "/departments/access/orientation/services/audio_mp4/2.mp4";
-			
-		}
-	
-		//Setup jwPlayer
-		jwplayer("video1").setup({
+			
+
+		}
+
+	
+
+		//Setup jwPlayer
+
+		jwplayer("video1").setup({
+
 			file: file1,
 			plugins: {
             			captions: { file: "../content/video/services/2.xml", state: "false" }
-        		},
-			width: "330",
+        		},
+
+			width: "330",
+
 			height: "249",
-			autostart: true,
-			skin: "../js/stormtrooper/stormtrooper.xml",
-			provider: "rtmp",
+			autostart: true,
+
+			skin: "../js/stormtrooper/stormtrooper.xml",
+
+			provider: "rtmp",
+
 			streamer: "rtmp://mediasrv01.desales.edu/vod/",
-			screencolor: "F5F4F4",
-			players: [
-				{ type: "html5" },
-				{ type: "flash", src: "../js/player.swf" }
-			]
+			screencolor: "F5F4F4",
+
+			players: [
+
+				{ type: "html5" },
+
+				{ type: "flash", src: "../js/player.swf" }
+
+			]
+
 		});
-
+
+
 </script> 
 
 </html>  
