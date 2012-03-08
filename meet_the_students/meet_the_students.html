@@ -123,13 +123,20 @@
 <script type="text/javascript">	
 	
 		//iPhone/iPod test
-		if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
-			var file  = "/media/departments/access/orientation/meet_the_students/audio_m4v/welkie_i.m4v";
+		if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
+			var file = "/media/departments/access/orientation/meet_the_students/audio_m4v/welkie_i.m4v";
 			//var file2 = "/media/departments/access/orientation/meet_the_students/audio_m4v/phillips_i.m4v";
 			var file3 = "/media/departments/access/orientation/meet_the_students/audio_m4v/ressler_i.m4v";
 			var file4 = "/media/departments/access/orientation/meet_the_students/audio_m4v/simons_i.m4v";
 			var file5 = "/media/departments/access/orientation/meet_the_students/audio_m4v/roberts_i.m4v";
 			//var file6 = "/media/departments/access/orientation/meet_the_students/audio_m4v/corona_i.m4v";
+		} else if (navigator.userAgent.toLowerCase().indexOf('chrome') > -1) {
+			var file  = "/media/departments/access/orientation/meet_the_students/audio_mp4/welkie.mp4";
+			//var file2 = "/media/departments/access/orientation/meet_the_students/audio_mp4/phillips.mp4";
+			var file3 = "/media/departments/access/orientation/meet_the_students/audio_mp4/ressler.mp4";
+			var file4 = "/media/departments/access/orientation/meet_the_students/audio_mp4/simons.mp4";
+			var file5 = "/media/departments/access/orientation/meet_the_students/audio_mp4/roberts.mp4";
+			//var file6 = "/media/departments/access/orientation/meet_the_students/audio_mp4/corona.mp4";			
 		} else {
 			//All other browsers
 			var file  = "/departments/access/orientation/meet_the_students/audio_mp4/welkie.mp4";

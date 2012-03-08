@@ -95,13 +95,18 @@
 <script type="text/javascript">	
 	
 		//iPhone/iPod test
-		if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
+		if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
+		
 			var file1 = "/media/departments/access/orientation/services/audio_m4v/9_i.m4v";
-			
+			
+		} else if (navigator.userAgent.toLowerCase().indexOf('chrome') > -1) {
+			
+			var file1 = "/media/departments/access/orientation/services/audio_mp4/9.mp4";
+
 		} else {
-			//All other browsers
+			//All other browsers
 			var file1 = "/departments/access/orientation/services/audio_mp4/9.mp4";
-			
+			
 		}
 	
 		//Setup jwPlayer

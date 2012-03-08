@@ -115,21 +115,26 @@
 
 <script type="text/javascript">	
 		//iPhone/iPod test
-		if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
+		if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
 			var file1 = "/media/departments/access/orientation/connections/audio_m4v/shelene_conn_i.m4v";
 			//var file2 = "/media/departments/access/orientation/connections/audio_m4v/nina_conn_i.m4v";
 			var file3 = "/media/departments/access/orientation/connections/audio_m4v/pam_conn_i.m4v";
-			//var file4 = "/media/departments/access/orientation/connections/audio_m4v/simone_conn_i.m4v";
-		} else {
+			//var file4 = "/media/departments/access/orientation/connections/audio_m4v/simone_conn_i.m4v";
+		}else if (navigator.userAgent.toLowerCase().indexOf('chrome') > -1) {
+			//All other browsers
+			var file1 = "/media/departments/access/orientation/connections/audio_mp4/shelene_conn.mp4";
+			//var file2 = "/media/departments/access/orientation/connections/audio_mp4/nina_conn.mp4";
+			var file3 = "/media/departments/access/orientation/connections/audio_mp4/pam_conn.mp4";
+			//var file4 = "/media/departments/access/orientation/connections/audio_mp4/simone_conn.mp4";
+		} else {
 			//All other browsers
 			var file1 = "/departments/access/orientation/connections/audio_mp4/shelene_conn.mp4";
 			//var file2 = "/departments/access/orientation/connections/audio_mp4/nina_conn.mp4";
 			var file3 = "/departments/access/orientation/connections/audio_mp4/pam_conn.mp4";
-			//var file4 = "/departments/access/orientation/connections/audio_mp4/simone_conn.mp4";
+			//var file4 = "/departments/access/orientation/connections/audio_mp4/simone_conn.mp4";
 		}
 
-
-		//Setup jwPlayer
+		//Setup jwPlayer
 		jwplayer("video1").setup({
 			file: file1,
 			image: "images/ressler.jpg",

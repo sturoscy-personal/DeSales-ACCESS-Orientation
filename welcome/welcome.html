@@ -103,17 +103,24 @@
 
 <script type="text/javascript">	
 		//iPhone/iPod test
-		if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
+		if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
 			var file1 = "/media/departments/access/orientation/welcome/audio_m4v/debbie_boros_i.m4v";
 			var file2 = "/media/departments/access/orientation/welcome/audio_m4v/w_d_y_choose_desales_i_rev.m4v";
-			var file3 = "/media/departments/access/orientation/welcome/audio_m4v/ft_dailey_i.m4v";
-		} else {
-			//All other browsers
+			var file3 = "/media/departments/access/orientation/welcome/audio_m4v/ft_dailey_i.m4v";
+		} else if (navigator.userAgent.toLowerCase().indexOf('chrome') > -1) {
+			//All other browsers
+			var file1 = "/media/departments/access/orientation/welcome/audio_mp4/debbie_boros.mp4";
+			//Old File Commented Out - sft (5/25/2011)
+			//var file2 = "/media/departments/access/orientation/welcome/audio_mp4/w_d_y_choose_desales.mp4";
+			var file2 = "/media/departments/access/orientation/welcome/audio_mp4/w_d_y_choose_desales-rev.mp4";
+			var file3 = "/media/departments/access/orientation/welcome/audio_mp4/ft_dailey.mp4";			
+		} else {
+			//All other browsers
 			var file1 = "/departments/access/orientation/welcome/audio_mp4/debbie_boros.mp4";
 			//Old File Commented Out - sft (5/25/2011)
 			//var file2 = "/departments/access/orientation/welcome/audio_mp4/w_d_y_choose_desales.mp4";
 			var file2 = "/departments/access/orientation/welcome/audio_mp4/w_d_y_choose_desales-rev.mp4";
-			var file3 = "/departments/access/orientation/welcome/audio_mp4/ft_dailey.mp4";
+			var file3 = "/departments/access/orientation/welcome/audio_mp4/ft_dailey.mp4";
 		}
 		//Setup jwPlayer
 		jwplayer("video1").setup({

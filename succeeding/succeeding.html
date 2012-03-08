@@ -103,15 +103,18 @@
 
 <script type="text/javascript">	
 		//iPhone/iPod test
-		if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
+		if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
 			var file1 = "/media/departments/access/orientation/succeeding/audio_m4v/saas_i.m4v";
+			
+		} else if (navigator.userAgent.toLowerCase().indexOf('chrome') > -1) {
+			var file1 = "/media/departments/access/orientation/succeeding/audio_mp4/saas-rev.mp4";
 		} else {
 			//All other browsers
 			//Old File Commented Out - sft (5/25/2011)
 			//var file1 = "/departments/access/orientation/succeeding/audio_mp4/saas.mp4";
 			var file1 = "/departments/access/orientation/succeeding/audio_mp4/saas-rev.mp4";
 		}
-		//Setup jwPlayer
+		//Setup jwPlayer
 		jwplayer("video1").setup({
 			file: file1,
 			image: "images/saas-rev.jpg",

@@ -126,20 +126,23 @@
 </body> 
 
 <script type="text/javascript">	
-	
-		//iPhone/iPod test
-		if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
+		//iPhone/iPod test
+		if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
 			var file1 = "/media/departments/access/orientation/essentials/audio_m4v/alice_begley_i.m4v";
 			var file2 = "/media/departments/access/orientation/essentials/audio_m4v/judy_schwartz_i.m4v";
-			var file3 = "/media/departments/access/orientation/essentials/audio_m4v/hollie_knauss_i.m4v";
-		} else {
-			//All other browsers
+			var file3 = "/media/departments/access/orientation/essentials/audio_m4v/hollie_knauss_i.m4v";
+		} else if (navigator.userAgent.toLowerCase().indexOf('chrome') > -1) {
+			var file1 = "/media/departments/access/orientation/essentials/audio_mp4/alice_begley.mp4";
+			var file2 = "/media/departments/access/orientation/essentials/audio_mp4/judy_schwartz.mp4";
+			var file3 = "/media/departments/access/orientation/essentials/audio_mp4/hollie_knauss.mp4";
+		} else {
+			//All other browsers
 			var file1 = "/departments/access/orientation/essentials/audio_mp4/alice_begley.mp4";
 			var file2 = "/departments/access/orientation/essentials/audio_mp4/judy_schwartz.mp4";
-			var file3 = "/departments/access/orientation/essentials/audio_mp4/hollie_knauss.mp4";
-		}
-	
-		//Setup jwPlayer
+			var file3 = "/departments/access/orientation/essentials/audio_mp4/hollie_knauss.mp4";
+		}
+		
+		//Setup jwPlayer
 		jwplayer("video1").setup({
 			file: file1,
 			image: "images/1.jpg",
